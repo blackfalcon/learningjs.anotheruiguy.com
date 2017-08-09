@@ -1,0 +1,9 @@
+{
+  "name": "Learning JavaScript ... a career path",
+  "version": "0.1.0",
+  "description": "My name is Dale Sande (anotheruiguy) and this is a book of life learning JavaScript.",
+  "author": "Dale Sande <dale.sande@gmail.com>",
+  "license": "copyright 2017",
+  "title": "Dale Sande (anotheruiguy) learning JavaScript",
+  "plugins": ["exercises"]
+}
