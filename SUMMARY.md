@@ -43,6 +43,7 @@ http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
 -->
 
 * [Functional Programming](functionalProgramming/README.md)
+  * [Filter and Map](functionalProgramming/filter.md)
 
 <!--
 * [Deep dive](deepDive/README.md)
