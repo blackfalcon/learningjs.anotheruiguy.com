@@ -6,10 +6,17 @@
   * [Objects](thingsToKnow/objects.md)
   * [Primitives](thingsToKnow/primitives.md)
   * [Truthy / Falsy](thingsToKnow/truthyFalsy.md)
-  * [this](thingsToKnow/this.md)
   * [Hoisting](thingsToKnow/hoisting.md)
   * [Garbage Collection](thingsToKnow/garbageCollection.md)
   * [Functions](thingsToKnow/functions.md)
+
+
+* [this](thingsToKnow/this.md)
+  * [In a function](thingsToKnow/thisFunction.md)
+  * [In methods and objects](thingsToKnow/thisMethod.md)
+  * [In a constructor](thingsToKnow/thisConstructor.md)
+  * [In call or apply methods](thingsToKnow/thisCallApply.md)
+  * [The bind method](thingsToKnow/thisBind.md)
 
 <!--
   * [Prototype object](thingsToKnow/prototype.md)
