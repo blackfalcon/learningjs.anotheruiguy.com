@@ -53,4 +53,77 @@ window.foo;
 
 ## Building custom methods
 
-Need to really flush this out here. Refer to the `objectWithMethods` example to illustrate this here.
+See [JSBin](https://jsbin.com/mopopuzaya/edit?html,js,console) for examples shown here.
+
+What do we know about methods so far? Basically there are methods baked into JavaScipt that we can take advantage of right away to access properties of our objects. Great. But, what if we need to do something custom? Well, given the construct of JavaScript itself, we know that the value of a key inside an object can be a function. So, all a custom method is, is a function assigned to a key value within the scope of a function.
+
+To do this, there are a couple of ways. One way requires a constructor, and a way to bind a method to that new prototype. Yeah, it is about as messy as it sounds. Ok, first thing first. Let's create a constructor that we will build our object from.
+
+```js
+function Person(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+}
+```
+
+Ok, now that we have an object constructor, let's write the new method that will be bound to the new object when it is created from this constructor.
+
+```js
+Person.prototype.sayMyName = function() {
+  console.log(`${this.firstName} ${this.lastName}`);
+}
+```
+
+Ok, cooking with gas now. In order to get this to actually do anything, we need to use the constructor to create the object of `dad` where we will append the name data.
+
+```js
+const dad = new Person('Dale', 'Sande');
+```
+
+Boom, we have a new object for `dad`. Now that we have this set up, we can call the object and use the method to say my name.
+
+```js
+dad.sayMyName(); // "Dale Sande"
+```
+
+This example illustrates the long-hand way of doing this work. What's interesting is if you `console.log()` the `dad` object. It comes back looking like this.
+
+```js
+[object Object] {
+  firstName: "Dale",
+  lastName: "Sande",
+  sayMyName: function () {
+    window.runnerWindow.proxyConsole.log(`${this.firstName} ${this.lastName}`);
+  }
+}
+```
+
+WAT?! The `sayMyName` method is simply interjected inside the object? So this clearly illustrates how you can build the method directly inside the object constructor, like in the following example.
+
+```js
+function Person(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+  this.sayMyName = function() {
+    console.log(`${this.firstName} ${this.lastName}`);
+  }
+}
+```
+
+Setting up the constructor to have the method directly inside does exactly the same thing as appending the method to the prototype. And what if we wanted to dismiss the constructor all together?
+
+```js
+const dad = {
+  firstName: 'Dale',
+  lastName: 'Sande',
+  sayMyName: function() {
+    console.log(`${this.firstName} ${this.lastName}`)
+  }
+}
+
+dad.sayMyName(); // "Dale Sande"
+```
+
+I, myself, see a lot of value creating constructors when possible. It helps to set a constant pattern of object creation and leaves you with a lot of opportunities down the road having access to the object's prototype.
+
+Read more on [constructors](/thingsToKnow/constructors.html)
