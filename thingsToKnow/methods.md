@@ -53,7 +53,7 @@ window.foo;
 
 ## Building custom methods
 
-See [JSBin](https://jsbin.com/mopopuzaya/edit?html,js,console) for examples shown here.
+See [JSBin](https://jsbin.com/nirapiy/edit?js,console) for examples shown here.
 
 What do we know about methods so far? Basically there are methods baked into JavaScipt that we can take advantage of right away to access properties of our objects. Great. But, what if we need to do something custom? Well, given the construct of JavaScript itself, we know that the value of a key inside an object can be a function. So, all a custom method is, is a function assigned to a key value within the scope of a function.
 
