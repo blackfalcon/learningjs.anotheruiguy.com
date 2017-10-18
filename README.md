@@ -20,4 +20,11 @@ Learning JavaScript is a process of daily challenges. And what better way to cha
 
 Let's learn together!
 
+### It's open source!
+
+If you want to get involved in helping me write all of this, you are more then welcome. Also, I am my own editor. If you see anything wrong or a typo, please submit a pull request, or at the very least submit an issue that I can follow up with later!
+
 -- [@anotheruiguy](http://www.twitter.com/anotheruiguy)
+
+
+<a href="https://github.com/blackfalcon/learningjs.anotheruiguy.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
