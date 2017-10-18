@@ -35,6 +35,12 @@
 
 
 
+* [JavaScript Loops](thingsToKnow/loops.md)
+  * [For loop](thingsToKnow/forLoop.md)
+  * [Do While](thingsToKnow/doWhile.md)
+
+
+
 * [ES6 things](es6Things/README.md)
   * [var, let, const](es6Things/varKeyWords.md)
   * [Template Literals](es6Things/templateLiterals.md)
