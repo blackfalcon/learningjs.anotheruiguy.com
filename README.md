@@ -6,7 +6,7 @@ And if you are in web development, you may have noticed that your whole world is
 
 You can either get on the train or be left in the station. I for one have never been about being left at the station. While I am in the lead car in this race, I am still in the race and I will do what I need to in order to keep racing.
 
-JavaScript is here and it's not going anywhere. In fact, with latest ES6 updates, you could ague that JavaScript has come of age in regards to being considered a real programming language. So where does that put people like you and me? On the learning curve, that's where. And for some more so than others, that curve is steep as hell.
+JavaScript is here and it's not going anywhere. In fact, with latest ES6 updates, you could argue that JavaScript has come of age in regards to being considered a real programming language. So where does that put people like you and I? On the learning curve, that's where. And for some, more so than others, that curve is steep as hell.
 
 ## Maybe this will help?
 
@@ -16,13 +16,13 @@ In regards to JavaSscript, there is more to learn then there is daily practical 
 
 And even worse, the [JavaScript interview!](interview/)
 
-Learning JavaScript is a process of daily challenges. And what better way to challenge yourself than coming up with 1001 little exercises and self publishing them on the internets. I am NOT a JavaScript master or expert by any means, nor do I have a CS degree. But that has never stopped from learning something in the past and not stopping me from learning now.
+Learning JavaScript is a process of daily challenges. And what better way to challenge yourself than coming up with 1,001 little exercises and self-publishing them on the internets. I am NOT a JavaScript master or expert by any means, nor do I have a CS degree. But that has never stopped me from learning something in the past and not stopping me from learning now.
 
 Let's learn together!
 
 ### It's open source!
 
-If you want to get involved in helping me write all of this, you are more then welcome. Also, I am my own editor. If you see anything wrong or a typo, please submit a pull request, or at the very least submit an issue that I can follow up with later!
+If you want to get involved in helping me write all of this, you are more than welcome. Also, I am my own editor. If you see anything wrong or a typo, please submit a pull request, or at the very least submit an issue that I can follow up with later!
 
 -- [@anotheruiguy](http://www.twitter.com/anotheruiguy)
 
