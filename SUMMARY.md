@@ -9,6 +9,7 @@
   * [Hoisting](thingsToKnow/hoisting.md)
   * [Garbage Collection](thingsToKnow/garbageCollection.md)
   * [Functions](thingsToKnow/functions.md)
+  * [Cookies](thingsToKnow/cookies.md)
 
 
 * [this](thingsToKnow/this.md)
