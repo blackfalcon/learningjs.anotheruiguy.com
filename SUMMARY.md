@@ -65,6 +65,7 @@ http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
   * [Find the match](interview/findMatch.md)
   * [Parse the string](interview/parseString.md)
   * [Object w/Methods](interview/objectWithMethods.md)
+  * [Encryption](interview/encryption.md)
 
 
 <!--
