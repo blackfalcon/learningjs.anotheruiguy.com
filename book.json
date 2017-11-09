@@ -5,5 +5,10 @@
   "author": "Dale Sande <dale.sande@gmail.com>",
   "license": "copyright 2017",
   "title": "Dale Sande (anotheruiguy) learning JavaScript",
-  "plugins": ["exercises"]
+  "plugins": ["exercises", "ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-109488805-1"
+        }
+    }
 }
