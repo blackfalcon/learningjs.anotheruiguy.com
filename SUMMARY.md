@@ -10,6 +10,7 @@
   * [Garbage Collection](thingsToKnow/garbageCollection.md)
   * [Functions](thingsToKnow/functions.md)
   * [Cookies](thingsToKnow/cookies.md)
+  * [Date and Time](thingsToKnow/dateTime.md)
 
 
 * [this](thingsToKnow/this.md)
