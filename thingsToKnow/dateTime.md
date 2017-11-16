@@ -70,7 +70,7 @@ const str = `${nowDay} the ${nowDate} of ${nowMonth}, ${nowYear}`
 console.log(str); // "Wednesday the 15 of November, 2017"
 ```
 
-This looks GREAT, except ... `Wednesday the 15`? How do we get the `th` in there? As far as I know, this is not a native function of JavaScript, but we can easily build this. Let's build a new function called `ordinalSuffix()` and it takes a single integer as a parameter. Reading through the code we see that it is running a few math functions on the value of `i`. First, we need to get the module of `10` and `100` per the value of `i`. Then depending on the modulo value, we return a new string that will have the `st`, `nd`, `rd` or `th` added to it. Pretty simple.
+This looks GREAT, except ... `Wednesday the 15`? How do we get the `th` in there? As far as I know, this is not a native function of JavaScript, but we can easily build this. Let's build a new function called `ordinalSuffix()` and it takes a single integer as a parameter. Reading through the code we see that it is running a few math functions on the value of `i`. First, we need to get the modulo of `10` and `100` per the value of `i`. Then depending on the modulo value, we return a new string that will have the `st`, `nd`, `rd` or `th` added to it. Pretty simple.
 
 ```js
 function ordinalSuffix(i) {
@@ -192,9 +192,9 @@ const str = `It is ${now.toLocaleTimeString("en-us", timeOptions)}, ${nowDay} th
 console.log(str); // "It is 3:13 PM PST, Wednesday the 15th of November, 2017"
 ```
 
-##### The above code is loaded into this view and below is the result. Pretty cool!
+Here is that code in action!
 
-<p id='dateTime'></p>
+<p><b id='dateTime'></b></p>
 
 <script>
   const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -232,7 +232,31 @@ console.log(str); // "It is 3:13 PM PST, Wednesday the 15th of November, 2017"
 
   const elem = document.getElementById('dateTime');
 
-  window.onload = function() {
-    elem.innerHTML = str;
-  };
+  elem.innerHTML = str;
+</script>
+
+
+### One more thing
+
+That pesky copyright in the footer thing I mentioned in the beginning. Here is something crazy simple.
+
+```js
+const copyrightElem = document.getElementById('copyright');
+
+const now = new Date();
+const nowYear = now.getFullYear();
+const copyright = `All rights reserved. © ${nowYear - 1} - ${nowYear + 1}`;
+
+
+copyrightElem.innerHTML = copyright;
+```
+
+Here is that code in action
+
+<p><b id='copyright'></b></p>
+
+<script>
+  const copyrightElem = document.getElementById('copyright');
+  const copyright = `All rights reserved. © ${nowYear - 1} - ${nowYear + 1}`;
+  copyrightElem.innerHTML = copyright;
 </script>
