@@ -52,7 +52,17 @@ http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
 -->
 
 * [Functional Programming](functionalProgramming/README.md)
+
   * [Filter and Map](functionalProgramming/filter.md)
+
+
+* [Programming paradigms](functionalProgramming/programmingParadigms.md)
+  * [Imperative](functionalProgramming/imperative.md)
+  * [Functional](functionalProgramming/functional.md)
+  * [Declarative](functionalProgramming/declarative.md)
+  * [Object-oriented](functionalProgramming/objectOriented.md)
+  * [Procedural](functionalProgramming/procedural.md)
+
 
 <!--
 * [Deep dive](deepDive/README.md)
