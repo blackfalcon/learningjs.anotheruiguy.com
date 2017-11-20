@@ -51,6 +51,12 @@ http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
 * [Higher Order Functions](thingsToKnow/higherOrderFunctions.md)
 -->
 
+* [Programming paradigms](functionalProgramming/programmingParadigms.md)
+  * [Imperative](functionalProgramming/imperative.md)
+  * [Functional](functionalProgramming/functional.md)
+  * [Object-oriented](functionalProgramming/objectOriented.md)
+
+
 * [Functional Programming](functionalProgramming/README.md)
   * [Filter and Map](functionalProgramming/filter.md)
 

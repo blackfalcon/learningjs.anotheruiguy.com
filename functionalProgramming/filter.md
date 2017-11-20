@@ -56,7 +56,7 @@ Now for the `for()` loop. All the standard stuff here as we would come to expect
 function printVehicles(vehicle) {
   let newArray = [];
 
-  for (let i = 0; i > vehicles.length; i++) {
+  for (let i = 0; i < vehicles.length; i++) {
     ...
   }
 }
@@ -77,13 +77,14 @@ function printVehicles(vehicle) {
         newArray.push(vehicles[i].model);
     }
   }
+  return newArray;
 }
 ```
 
 Given what we have here, we can run the following code and get a response.
 
 ```js
-printVehicles('Ford'); // ["F-150", "Mustang"]
+console.log(printVehicles('Ford')); // ["F-150", "Mustang"]
 ```
 
 This all works really well and in this example you can probably quickly understand what this is doing. But what if it was even clearer?
