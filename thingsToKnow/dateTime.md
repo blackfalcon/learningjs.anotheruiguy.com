@@ -12,7 +12,7 @@ For starters, getting the current time from the browser is pretty simple, lookin
 
 ```js
 const now = new Date();
-const nowStr = today.toString();
+const nowStr = now.toString();
 
 console.log(nowStr); // "Wed Nov 15 2017 14:29:45 GMT-0800 (PST)"
 ```
