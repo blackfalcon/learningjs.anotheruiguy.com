@@ -236,7 +236,7 @@ Here is that code in action!
 </script>
 
 
-### One more thing
+### One more thing ...
 
 That pesky copyright in the footer thing I mentioned in the beginning. Here is something crazy simple.
 

@@ -11,6 +11,7 @@
   * [Functions](thingsToKnow/functions.md)
   * [Cookies](thingsToKnow/cookies.md)
   * [Date and Time](thingsToKnow/dateTime.md)
+  * [Better Date and Time](thingsToKnow/betterDateTime.md)
 
 
 * [this](thingsToKnow/this.md)
