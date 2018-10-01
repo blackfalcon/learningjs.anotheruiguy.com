@@ -1,17 +1,13 @@
 # Timeout Loop
 
-```
-function createTimeoutLoop() {
-  let i = 0;
-
-  for (i = 0; i < 3; i++) {
-    setTimeout(function(x) {
+```js
+(function createTimeoutLoop() {
+  for (let i = 0; i <= 60; i++) {
+    setTimeout(function(tick) {
       return function() {
-        console.log(x);
+        console.log(`${tick} ${tick === 1 ? 'second' : 'seconds'}`);
       };
     }(i), 1000 * i);
   }
-}
-
-createTimeoutLoop();
+})();
 ```

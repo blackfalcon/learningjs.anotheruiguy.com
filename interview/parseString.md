@@ -28,24 +28,19 @@ const myString = `We are putting our shorts in the car? Right you are.`;
 
 function speakBoston(arr) {
   const stringArray = arr.split('');
-  const stringLength = stringArray.length;
   const newStringArray = [];
   const alwaysBoston = `That's wicked awesome!`;
-  let newString;
-  let concatString;
-  let i;
 
-  for(i = 0; i < stringLength; i++) {
+  for(let i = 0; i < stringArray.length; i++) {
     const character = stringArray[i];
 
     if (character != 'r' && character != 'R') {
       newStringArray.push(character);
     }
-
-
   }
-  newString = newStringArray.join('');
-  concatString = `${newString} ${alwaysBoston}`;
+
+  let newString = newStringArray.join('');
+  let concatString = `${newString} ${alwaysBoston}`;
 
   return concatString;
 }

@@ -28,3 +28,7 @@ Where you fall in that range of questions, I can't tell you. But what I can help
   1. `typeof(null) // object`
 
 1. __What does the use of the arrow function `() =>` do?__
+
+  1. With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.
+  1. With capturing, the event is first captured by the outermost element and propagated to the inner elements.
+  1. Think  - 'trickle down, bubble up'

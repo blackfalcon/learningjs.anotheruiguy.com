@@ -4,7 +4,7 @@ In all the JavaScript interviews I have come across, there is a common theme. "D
 
 > Let's say that I have two arrays, what I need is a function that will accept these two arrays and compare them to each other and produce a single array that only has the items that matched.
 
-Seems pretty straight forward, right? On the surface, this almost seems more difficult than the other [problem](/interview/compareArray.html) of finding values in an array that equal the provided sum. But it's not. It's actually much simpler. Let's break this down into what an example would look like.
+Seems pretty straight forward, right?
 
 Let's say that our arrays look like this;
 
@@ -116,7 +116,7 @@ And our result will be ...
 
 Given this, we can throw literally anything into these arrays and we can compare their values.
 
-### What about ES6 bro!
+### What about ES6?
 
 Ahh yes ... our new friend ES6. Well, for the most part, ES6 doesn't really change this solution too much, but we can use a new tool called the `for ... in` loop versus the traditional `for()` loop.
 
@@ -129,8 +129,8 @@ For example, `for (let item in items)` will return the iterator value of the arr
 Let's create some new lists ...
 
 ```js
-var thoseNames = ['Tom', 'Dick', 'Harry', 'Alice', 'Peter', 'Mike'];
-var theirNames = ['Dale', 'Tom', 'Peter'];
+const thoseNames = ['Tom', 'Dick', 'Harry', 'Alice', 'Peter', 'Mike'];
+const theirNames = ['Dale', 'Tom', 'Peter'];
 ```
 
 Then we have our new `diff` function.
@@ -154,7 +154,7 @@ function diff(array, nextArray) {
 We can now run this function like so;
 
 ```js
-var foo = diff(thoseNames, theirNames);
+const foo = diff(thoseNames, theirNames);
 
 console.log(foo);
 ```

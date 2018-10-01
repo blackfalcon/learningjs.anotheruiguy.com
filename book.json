@@ -1,14 +1,15 @@
 {
-  "name": "Learning JavaScript ... a career path",
+  "_comments": "Book publishing meta data",
+  "title": "Fuck, this is a lot of JavaScript!",
   "version": "0.1.0",
-  "description": "My name is Dale Sande (anotheruiguy) and this is a book of life learning JavaScript.",
+  "description": "There is a lot of fucking JavaScript in here ...",
   "author": "Dale Sande <dale.sande@gmail.com>",
   "license": "copyright 2017",
-  "title": "Dale Sande (anotheruiguy) learning JavaScript",
-  "plugins": ["exercises", "ga"],
-    "pluginsConfig": {
-        "ga": {
-            "token": "UA-109488805-1"
-        }
-    }
+  "gitbook": ">= 3.2.3",
+
+  "_comments": "Variables used for the book",
+  "variables": {
+    "title": "Fuck, this is a lot of JavaScript!",
+    "version": "0.1.0"
+  }
 }

@@ -1,101 +1,89 @@
 # Summary
 
-* [Home](README.md)
-* [The Basics](thingsToKnow/README.md)
-  * [What is 'strict'?](thingsToKnow/strict.md)
-  * [Objects](thingsToKnow/objects.md)
-  * [Primitives](thingsToKnow/primitives.md)
-  * [Truthy / Falsy](thingsToKnow/truthyFalsy.md)
-  * [Hoisting](thingsToKnow/hoisting.md)
-  * [Garbage Collection](thingsToKnow/garbageCollection.md)
-  * [Functions](thingsToKnow/functions.md)
-  * [Cookies](thingsToKnow/cookies.md)
-  * [Date and Time](thingsToKnow/dateTime.md)
-  * [Better Date and Time](thingsToKnow/betterDateTime.md)
+* [Introduction](README.md)
 
 
-* [this](thingsToKnow/this.md)
-  * [In a function](thingsToKnow/thisFunction.md)
-  * [In methods and objects](thingsToKnow/thisMethod.md)
-  * [In a constructor](thingsToKnow/thisConstructor.md)
-  * [In call or apply methods](thingsToKnow/thisCallApply.md)
-  * [The bind method](thingsToKnow/thisBind.md)
-
-<!--
-  * [Prototype object](thingsToKnow/prototype.md)
--->
-
+* [JavaScript: 101](javaScript101/README.md)
+  * [What is JavaScript?](javaScript101/intro.md)
+  * [Inheritance and the prototype chain](javaScript101/prototype.md)
+  * [What is Strict?](javaScript101/strict.md)
+  * [Garbage Collection](javaScript101/garbageCollection.md)
+  * [Template Literals](javaScript101/templateLiterals.md)
+  * [Truthy or Falsy](javaScript101/truthyFalsy.md)
+  * [Cookies](javaScript101/cookies.md)
+  * [Hoisting](javaScript101/hoisting.md)
 
 
-* [More on Functions](thingsToKnow/moreOnFunctions.md)
-  * [Methods](thingsToKnow/methods.md)
-  * [Callbacks](thingsToKnow/callbacks.md)
-  * [Closures](thingsToKnow/closure.md)
-  * [Constructors](thingsToKnow/constructors.md)
-  * [Currying](thingsToKnow/currying.md)
+* [Storing and Tracking Data](storingTrackingData/README.md)
+  * [Primitives](storingTrackingData/primitives.md)
+  * [Variables](storingTrackingData/variables.md)
+  * [ES6 Vars](storingTrackingData/es6Vars.md)
+  * [Arrays](storingTrackingData/array.md)
+  * [Objects 101](storingTrackingData/objects101.md)
 
 
-
-* [ES6 things](es6Things/README.md)
-  * [var, let, const](es6Things/varKeyWords.md)
-  * [Template Literals](es6Things/templateLiterals.md)
-  * [for...of](es6Things/forOf.md)
-
-
-<!--
-http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
-* [Debugger](thingsToKnow/debugger.md)
-* [Destructuring](es6Things/destructuring.md)
-* [Arrow functions](es6Things/arrowFunctions.md)
-* [Lamda Functions](thingsToKnow/lamdaFunctions.md)
-* [Temporal Dead Zone](thingsToKnow/tdz.md)
-* [Higher Order Functions](thingsToKnow/higherOrderFunctions.md)
--->
-
-* [Programming paradigms](functionalProgramming/programmingParadigms.md)
-  * [Imperative](functionalProgramming/imperative.md)
-  * [Functional](functionalProgramming/functional.md)
-  * [Object-oriented](functionalProgramming/objectOriented.md)
+* [What is This?](whatIsThis/README.md)
+  * [In a function](whatIsThis/thisFunction.md)
+  * [Objects and Methods](whatIsThis/objectsMethods.md)
+  * [Constructor / ES6 Class](whatIsThis/thisConstructor.md)
+  * [Call and Apply methods](whatIsThis/callApply.md)
+  * [Bind method](whatIsThis/bind.md)
+  * [Arrow Functions](whatIsThis/arrowFunctions.md)
 
 
-* [Functional Programming](functionalProgramming/README.md)
-  * [Filter and Map](functionalProgramming/filter.md)
+* [Conditionals and Loops](conditionalsAndLoops/README.md)
+  * [Conditional statements](conditionalsAndLoops/makingDecisions.md)
+  * [Avoiding conditionals](conditionalsAndLoops/avoidingConditionals.md)
+  * [Repeat w/loops](conditionalsAndLoops/repeatWithLoops.md)
+  * [for ... in](conditionalsAndLoops/forIn.md)
+  * [for ... of](conditionalsAndLoops/forOf.md)
+  * [forEach() method](conditionalsAndLoops/forEachMethod.md)
 
-<!--
-* [Deep dive](deepDive/README.md)
-  * [ES6 Classes & Constructors](deepDive/classesAndConstructors.md)
-  * [Loops or map()](deepDive/loopsOrMap.md)
--->
+
+* [Functions and Scope](functionsAndScope/README.md)
+  * [Functions 101](functionsAndScope/functions.md)
+  * [Constructors](functionsAndScope/constructors.md)
+  * [Methods](functionsAndScope/methods.md)
+  * [Callbacks](functionsAndScope/callbacks.md)
+  * [Closures](functionsAndScope/closures.md)
+  * [Currying](functionsAndScope/currying.md)
+  * [Constructors, Class, Factory functions](functionsAndScope/constructorsClassFactory.md)
+
+
+* [ES6 Functions and Destructuring](functionsAndDestructuring/README.md)
+  * [Arrow functions](functionsAndDestructuring/arrowFunctions.md)
+  * [Simplified function syntax](functionsAndDestructuring/simplifiedSyntax.md)
+  * [Lexical scoping](functionsAndDestructuring/lexicalScoping.md)
+  * [Destructuring](functionsAndDestructuring/destructuring.md)
+  * [Arrays](functionsAndDestructuring/destructuringArrays.md)
+  * [Objects](functionsAndDestructuring/destructuringObjects.md)
+
+
+* [OOP Vs Functional Programming](oopVsFunctProgramming/README.md)
+  * [Imperative](oopVsFunctProgramming/imperative.md)
+  * [Object-oriented](oopVsFunctProgramming/objectOriented.md)
+  * [Functional](oopVsFunctProgramming/functional.md)
+
+
+* [Higher Order Functions](higherOrderFunctions/README.md)
+  * [Higher Order Functions](higherOrderFunctions/higherOrderFunctions.md)
+  * [Filter](higherOrderFunctions/filter.md)
+  * [Map](higherOrderFunctions/map.md)
+  * [Filter and Map](higherOrderFunctions/filterAndMap.md)
+  * [Reduce](higherOrderFunctions/reduce.md)
+  * [Reduce / array of objects](higherOrderFunctions/reduceArrayOfObjects.md)
+  * [Reduce / array to object](higherOrderFunctions/reduceListToObject.md)
+
 
 * [The Interview](interview/README.md)
-  * [Common Questions](interview/questions.md)
-  * [Compare array ... ](interview/compareArray.md)
+  * [Common questions](interview/questions.md)
   * [Find the match](interview/findMatch.md)
   * [Parse the string](interview/parseString.md)
-  * [Object w/Methods](interview/objectWithMethods.md)
+  * [Build an object with methods](interview/objectWithMethods.md)
+  * [Fibonacci number](interview/fibNumbers.md)
+  * [Timeout Loop](interview/timeOutLoop.md)
+  * [Checking a password](interview/checkPassword.md)
+  * [](interview/.md)
 
 
-<!--
-  * [Fib Numbers](interview/fibNumbers.md)
-  * [Check the password](interview/checkPassword.md)
--->
-
-
-
-<!--
-* [Comprehensive topics](https://www.educative.io/collection/5679346740101120/5707702298738688)
-  * [The Promise]()
-* [jQuery ... how?]()
-* [Functional Programming](functionalProgramming/README.md)
-  * [Reducing data](functionalProgramming/reduce.md)
-* [Build Systems]()
-  * [Gulp basics]()
-  * [Webpack basics]()
-* [ES6, 10 key features](https://webapplog.com/es6/)
-* [Interview questions](interview/README.md)
-  * [Data and algorithms](interview/dataAndAlgorithms.md)
-  * [Fib Numbers](interview/fibNumbers.md)
-* [Build things ...]()
-  * [Calendar component]()
-  * [Tap N Score]()
--->
+* [Glossary](GLOSSARY.md)

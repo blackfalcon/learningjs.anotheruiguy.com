@@ -2,42 +2,34 @@
 
 ```js
 function password(password) {
-  var passwordLength = password.length;
-  var passwordArray = password.split('');
-  var symbols = new RegExp('[^A-Za-z0-9_]');
-  var success;
+  const symbols = new RegExp('[^A-Za-z0-9_]');
+  let success = false;
 
-  for (i = 0; passwordLength > i; i++) {
-    var character = passwordArray[i];
-    var symbolTest = symbols.test(character);
+  for (let i = 0; i < password.length; i++) {
+    let character = password.split('')[i];
 
-    if (symbolTest === true && passwordLength >= 10) {
+    if (symbols.test(character) === true && password.length >= 10) {
       success = true;
-      break;
-    } else {
-      success = false;
     }
   }
 
   return success;
-
 }
 
 console.log(password('password0!'));
+console.log(password('Dale'));
 ```
 
+Getting crazy with regular expressions
 
 
 ```js
 function newPassword(password) {
 
-  // var exp = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9_])(?=.{10,})");
   var exp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9_])(?=.{10,})/;
-  var test = exp.test(password);
-
-  return test;
+  return exp.test(password);
 
 }
 
-console.log(newPassword('Issaquah01'));
+console.log(newPassword('Password0!'));
 ```

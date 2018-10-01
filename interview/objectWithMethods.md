@@ -10,7 +10,7 @@ The following code is the code that we are required to run in order for our func
 
 ```js
 // Create the object person using the Person constructor
-var person = new Person("Tom");
+const person = new Person("Tom");
 
 // Having created the new person object, apply the printName() method
 // Using the setName() method, change the value of person object and again, print out using the printName() method
