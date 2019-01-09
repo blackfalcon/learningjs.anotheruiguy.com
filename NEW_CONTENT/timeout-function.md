@@ -19,5 +19,5 @@ function fooTime(time, str) {
   }, time);
 }
 
-fooTime(1000, 'HOLY SHIT');
+fooTime(1000, 'HOLY WOW');
 ```
