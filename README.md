@@ -12,7 +12,7 @@ JavaScript is here and it's not going anywhere. In fact, with latest ES6 updates
 
 For me, learning comes in two forms; 1) daily practical use and 2) writing ...
 
-In regards to JavaSscript, there is more to learn then there is daily practical uses. And the terminology, holy shit, the words that this community comes up with ... closure, hoisting, callbacks, destructuring, Lambda functions, enumeration, currying and, the dreaded Temporal Dead Zone.
+In regards to JavaSscript, there is more to learn then there is daily practical uses. And the terminology, holy crap, the words that this community comes up with ... closure, hoisting, callbacks, destructuring, Lambda functions, enumeration, currying and, the dreaded Temporal Dead Zone.
 
 And even worse, the JavaScript interview!
 
