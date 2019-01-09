@@ -1,6 +1,6 @@
 {
   "_comments": "Book publishing meta data",
-  "title": "Fuck, this is a lot of JavaScript!",
+  "title": "Damn, this is a lot of JavaScript!",
   "version": "0.1.0",
   "description": "There is a lot of fucking JavaScript in here ...",
   "author": "Dale Sande <dale.sande@gmail.com>",
@@ -9,7 +9,7 @@
 
   "_comments": "Variables used for the book",
   "variables": {
-    "title": "Fuck, this is a lot of JavaScript!",
+    "title": "Damn, this is a lot of JavaScript!",
     "version": "0.1.0"
   }
 }
